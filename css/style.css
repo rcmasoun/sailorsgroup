@@ -36,7 +36,7 @@
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--bs-dark);
+    color: var(--bs-light);
 }
 
 .btn-secondary,
@@ -122,7 +122,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-logoyellow);
+    color: var(--bs-lightblue);
 }
 
 .navbar .dropdown-toggle::after {
@@ -560,7 +560,7 @@ background-image: linear-gradient(to right, #168bae 0%, #18335e 100%);
 /*** Footer ***/
 .footer {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/footer2.jpg) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 @media (min-width: 992px) {
